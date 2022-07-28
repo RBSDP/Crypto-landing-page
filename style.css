@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.navbar{
+    
+    display: flex;
+    flex: 5;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    
+    color: #fff;
+}
+.navbar div:nth-child(1){
+    flex: 1;
+    text-align: center;
+}
+.navbar div:nth-child(3){
+    flex: 3;
+}
+.navbar div:nth-child(4){
+    flex: 1;
+    text-align: center;
+}
+
+.list-item{
+    margin-left: 30px;
+    margin-right: 30px; 
+ } 
+.line {
+    width: 0px;
+    border: 1px solid white;
+    height: 6vh;
+    margin-left: 0px;
+    color: #fff;
+  }
+ 
+body{
+    background-image: url(./assets/bg.png);
+    
+    
+}
+.logo{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero{
+    margin-top: 180px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.hero-heading{
+    font-size: 80px;
+    color: #fff;
+}
+.hero-description{
+    font-size: 30px;
+    color: #fff;
+}
+.button-large{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 700px;
+    background-color:#C32ACC;
+    color: #fff;
+}
+.button-small{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #C32ACC;
+    border-radius: 10px;
+    color: #fff;
+}
